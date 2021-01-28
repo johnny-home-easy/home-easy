@@ -1,0 +1,196 @@
+* {
+    box-sizing: content-box;
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-text-h{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+    
+}
+
+.custom-text-p{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 16px;
+    
+}
+
+.navbar {
+    background: white;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky; /*sticks to the screen after you see it https://www.w3schools.com/howto/howto_css_sticky_element.asp*/
+    top: 0;
+    z-index: 999; /*makes sure nav bar is always visible where ever the user scrolls */
+}
+
+.navbar__container {
+    display:flex;
+    justify-content: space-between; 
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-color: lightblue;
+    background: rgb(32,140,244);
+    background: linear-gradient(90deg, rgba(32,140,244,1) 64%, rgba(43,72,99,1) 64%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight:700;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display:flex;
+    align-items:center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+
+}
+
+.navbar__links {
+    color: #262626;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    background: #208cf4;
+    color: white;
+    
+}
+
+.hero__container {
+    background-image: url(/img/house-banner6.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.hero__content {
+    width: 600px;
+    margin: 100px 0 120px 10%;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.review__content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.review__items{
+    margin: 3rem;
+    padding: 1rem;
+    max-width: 249px;
+    align-items: center;
+}
+
+.review-items-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#help-container{
+    
+    color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.help__content {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.help__items {
+    margin: 3rem;
+    padding: .5rem;
+    text-align: center;
+    border-top: 10px solid;
+    border-top-color: #208cf4;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    box-shadow: 0 0 24px rgb(0 0 0 / 8%);
+}
+
+.review-items-p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
