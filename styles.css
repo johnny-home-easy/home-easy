@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 html {
@@ -28,6 +29,7 @@ html {
 }
 
 .navbar {
+    overflow:hidden;
     box-shadow: 0 0 5px rgb(0 0 0 / 15%);
     background: white;
     height: 80px;
@@ -37,7 +39,7 @@ html {
     font-size: 1rem;
     position: sticky; /*sticks to the screen after you see it https://www.w3schools.com/howto/howto_css_sticky_element.asp*/
     top: 0;
-    z-index: 999; /*makes sure nav bar is always visible where ever the user scrolls */
+    z-index: 99; /*makes sure nav bar is always visible where ever the user scrolls */
 }
 
 .navbar__container {
@@ -149,6 +151,8 @@ html {
     transition-duration: 300ms;
 }
 
+
+
 .hero__container {
     background-image: url(img/house-banner4.jpg);
     height: 550px;
@@ -245,26 +249,27 @@ html {
     100%{top: 0px; opacity: .4;}
 }
 
-#help-section {
+#help {
+    background-color: #FAFAFA;
+}
+
+.help-section {
     padding-top: 40px;
     background-color: #FAFAFA;
     padding-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
 }
 
-.help {
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-}
 
 #help-container{
-    
     color: black;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    font-size: 40px;
 }
 
 .help__content {
@@ -280,7 +285,7 @@ html {
     text-align: center;
     display: block;
     border: 1px solid #f5f5f5;
-    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    box-shadow: rgb(209 209 213) 0px 5px 15px;
     
 }
 
@@ -290,7 +295,7 @@ html {
 }
 
 .help__items p {
-    font-size: 14px;
+    font-size: 16px;
     padding: 1.5rem;
     color: #525975;
 }
@@ -312,8 +317,35 @@ html {
     font-size: 12px;
 }
 
-.app__content h3 {
-    margin: 5px;
+#app-section {
+    padding-top: 40px;
+    background-color: #c9d1db;
+    padding-bottom: 40px;
+
+}
+
+#app-section p {
+    font-size: 16px;
+}
+
+.app {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.app-background {
+    background-image: url(img/appwall1.jpg);
+    height:500px;
+    max-width: 750px;
+    margin: 0 auto;
+    
+}
+
+.app h3 {
+    font-size: 48px;
+    margin-bottom: .5em;
 }
 
 #stars {
@@ -321,11 +353,25 @@ html {
     height: 35px;
 }
 
+#footer {
+    background-color: #E2E2E2;
+    padding-top: 20px;
+}
+
+#footer a, p {
+    font-size: 13.5px;
+}
+
+#footer-row-p {
+    font-size: 18px;
+    margin-top: 2%;
+}
+
 .footer__content {
     background-color: #E2E2E2;
-    color:  #549595F;
-    
-    
+    color: #549595F;
+    margin-left: 10%;
+    margin-right: 10%;    
 }
 
 
@@ -337,9 +383,6 @@ html {
     color: #464646;
 }
 
-.footer__main {
-
-}
 
 .footer-row {
     display: flex;
@@ -347,14 +390,26 @@ html {
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    border-bottom: 1px solid;
+    border-bottom: 1.5px solid;
     border-color: #939393;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.footer-logo {
+.footer-row-1-b {
+    display:flex;
+    align-content: space-between;
+    flex-direction: row;    
     
+}
+
+.footer-row-1-b a {
+    color: black;
+    
+}
+
+#footer-row-1-b-button {
+    padding-right: 100px;
 }
 
 #footer-logo {
@@ -444,6 +499,16 @@ html {
     cursor: pointer;
     transition: all .8 ease 0s;
     color: #208cf4;
+}
+
+.footer-subscribe {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-margin-left-class{
+    margin-left: 25px;
 }
 
 *, ::before, ::after {
