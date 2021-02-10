@@ -17,3 +17,5 @@ function scrollShrinkFunction() {
         document.getElementById("navbar__logo").style.fontSize = "35px";
       }
     }
+
+    alert('This website is currently a work in progress')

@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <!-- NAV BAR SECTION START -->
@@ -34,10 +37,13 @@
                     <a href="#" class="navbar__links">Buy</a>
                 </li>
                 <li class="navbar__item"> 
-                    <a href="#" class="navbar__links">Finance</a>
+                    <a href="#" class="navbar__links">Rent</a>
                 </li>
-                <li>
-                    <a href="#" class="navbar__btn button">Contact</a>
+                <li class="navbar__divider">
+
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__links">Contact</a>
                 </li>
             </ul>
 
@@ -52,16 +58,18 @@
     <!-- HERO SECTION START -->
         <section class="hero__container">
             <div class="hero__content">
-                <h1 class="custom-text-h">Buy or sell a home without the complications in-between</h1>
-                <p class="custom-text-p">HomeEasy will allow you to get instant pricing and the best offers whether you are a first home-buyer or not</p>
+                <h1 class="custom-text-h">Buy and sell homes easily</h1>
+                <p class="custom-text-p">Instant pricing. No credit card needed.</p>
                 <a href="#" class="button2">Browse Homes</a>
                 <br>
                 <br>
                 <div class="hero-search__container">
-                <form action="/action_page.html">
-                    <input type="text" class="search-bar" placeholder="Enter your address... "name="search">
-                    <a href="#" class="button3"> Get an offer</a>
-                </form>
+                    <form action="#">
+                        <input type="text" class="search-bar" placeholder="Enter your address... "name="search">
+                        <button type="submit" class="searchButton">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -69,7 +77,7 @@
             <div>
                 <div class="review__items">
                     <div class="review-items-inner">
-                        <img alt="washington post logo" src="img/washpost.png" height="30">
+                        <img alt="washington post logo" src="img/washpost.png" height="30" class="review-items-img">
                         <p class="review-items-p">"A buying and selling platform that helps families of all incomes"</p>
                     </div>
                 </div>
@@ -77,16 +85,16 @@
             <div>
                 <div class="review__items">
                     <div class="review-items-inner">
-                        <img alt="yahoo finance logo" src="img/yahoo.png" height="30">
-                        <p class="review-items-p">"Best performing stock on the NASDAQ ever since 2018"</p>
+                        <img alt="Forbes logo" src="img/forbes.png" height="30" class="review-items-img">
+                        <p class="review-items-p">"Top 5 most innovative startups in North America"</p>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="review__items">
                     <div class="review-items-inner">
-                        <img alt="gatesnotes bill gates logo" src="img/GatesNotes.png" height="30">
-                        <p class="review-items-p">"A magnificent platform that will change the buying and selling of homes" <br><strong>-Bill Gates</strong></p>
+                        <img alt="yahoo finance logo" src="img/yahoo.png" height="30" class="review-items-img">
+                        <p class="review-items-p">"Best performing stock on the NASDAQ ever since 2018"</p>
                         <br>
                     </div>
                 </div>
@@ -94,16 +102,16 @@
             <div>
                 <div class="review__items">
                     <div class="review-items-inner">
-                        <img alt="la times logo" src="img/LAtimes.png" height="30">
+                        <img alt="la times logo" src="img/LAtimes.png" height="30" class="review-items-img">
                         <p class="review-items-p">"Innovative, disruptive and world-changing"</p>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="review__items">
-                    <div class="review-items-inner">
-                        <img alt="Forbes logo" src="img/forbes.png" height="30">
-                        <p class="review-items-p">"Top 5 most innovative startups in North America"</p>
+                    <div class="review-items-inner">                        
+                        <img alt="gatesnotes bill gates logo" src="img/GatesNotes.png" height="30" class="review-items-img">
+                        <p class="review-items-p">"A magnificent platform that will change the buying and selling of homes" <br><strong>-Bill Gates</strong></p>
                     </div>
                 </div>
             </div>
@@ -115,11 +123,11 @@
     <section id="help">
         <div class="help-section">
             <h2 id="help-container">
-                Get help 24/7 assistance throughout the year
+                365/24/7 assistance throughout the year
                 <br>
                 <br>
             </h2>
-            <a href="#" target="_blank" class="">Learn more here</a>
+            <!-- <a href="#" target="_blank" class="">Learn more here</a> -->
                 <div class="help__content">
                     <div>
                         <div class="help__items">
@@ -128,7 +136,7 @@
                                 <img class="help-item-img" src="img/house-sell.png" alt="sell a house">
                                 <p>Use our platform to list your house.  Regardless if you are ready or not, we will take care of the rest.</p>
                                 <br>
-                                <a class="help-item-button button" href="#" target="_blank">Get started</a>
+                                <!-- <a class="help-item-button button" href="#" target="_blank">Get started</a> -->
                                 <br>
                             </div>
                         </div>
@@ -140,7 +148,7 @@
                                 <img class="help-item-img" src="img/house-buy.png" alt="buy house">
                                 <p>Get help purchasing a home.  We make the process easier by connecting you directly to sellers.</p>
                                 <br>
-                                <a class="help-item-button button" href="#" class="button" target="_blank">Get started</a>
+                                <!-- <a class="help-item-button button" href="#" class="button" target="_blank">Get started</a> -->
                                 <br>
                             </div>
                         </div>
@@ -150,9 +158,9 @@
                             <div>
                                 <h3>Rent a home</h3>
                                 <img class="help-item-img" src="img/house-rent.png" alt="rent a place">
-                                <p>Find a home to rent anywhere in North America.  Canada and US residents only.</p>
+                                <p>Find a home to rent anywhere in North America using our platform.  Canada and US residents only.</p>
                                 <br>
-                                <a class="help-item-button button" href="#" class="button" target="_blank">Get started</a>
+                                <!-- <a class="help-item-button button" href="#" class="button" target="_blank">Get started</a> -->
                                 <br>
                             </div>
                         </div>
@@ -201,7 +209,7 @@
     <!-- FOOTER START -->
     <footer id="footer">
         <div class="footer__content">
-            <div class="footer__main">
+            <!-- <div class="footer__main">
                 <div class="footer-row">
                     <div>
                         <h2>Digitalize your needs with our services!</h2>
@@ -215,7 +223,7 @@
                             <a href="#" target="_blank" class="">For Buyers</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             <div class="footer__main">
                 <div class="footer-row">
                     <div class="footer-logo">
@@ -249,7 +257,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-row">
+                <div class="footer-row" id="footer-bottom-row">
                     <p>© 2021 HomeEasy <a href="#" class="footer-row-ab">Terms & Conditions</a><a href="#" class="footer-row-ab">Privacy Policy</a></p>
                     <div>
                         <div class="footer-subscribe">
